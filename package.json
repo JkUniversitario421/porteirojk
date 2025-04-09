@@ -1,29 +1,12 @@
 {
   "name": "porteirojk",
   "version": "1.0.0",
-  "description": "Bot do porteiro da Pousada JK Universitário",
+  "description": "App porteiro JK",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JkUniversitario421/porteirojk.git"
-  },
-  "keywords": [
-    "node",
-    "bot",
-    "porteiro",
-    "JKUniversitario"
-  ],
-  "author": "Thiago Leonardo",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
   }
 }
-
